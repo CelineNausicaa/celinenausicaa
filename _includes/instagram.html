@@ -5,14 +5,11 @@
         </div>
         <div class="col-sm-12 col-md-12">
             <p>
-                <strong><em><font size="+2">Fine-tuning m-DeBERTa-V3 for GED</font></em></strong><br/>
+                Work in progress: <strong><em><font size="+2">Fine-tuning m-DeBERTa-V3 for GED</font></em></strong><br/>
                 <strong><em>Keywords:</em></strong> m-DeBERTa-V3, Deep Learning, Grammatical Error Detection, Pytorch<br/>
-                <strong>In short:</strong> the LLM XLM-RoBERTa is the state-of-the-art of multilingual grammatical error detection. But in which areas of the grammar does the model struggle the most? <br/>
-                <strong>Results:</strong> the model missed more errors related to syntax, morphology and lexicon than punctuation and orthography. More specifically, the model seems to struggle with tense coordination, agreement, missing words and prepositions.<br/>
-                <strong>Wanna know more? </strong><a href="https://github.com/CelineNausicaa/celinenausicaa/blob/gh-pages/_includes/downloads/CL_thesis_untanglingLMs_reviewed.pdf">Check it out on Github</a>
-
-<!--                 <a href="_includes/downloads/CL_thesis_untanglingLMs_reviewed.pdf" download="CL_thesis_untanglingLMs_reviewed.pdf">Download the PDF here</a> -->
-
+                <strong>In short:</strong> since its release in March 2023, m-DeBERTa-V3 has proven to be one of the best performing LLMs ever created (see <a href="https://arxiv.org/abs/2111.09543">He et al., 2023</a>). One area in which this brand new model has not yet been tested is Grammatical Error Detection (GED). We can hypothesise that m-DeBERTa-V3 should perform exceptionally well in GED, given the fact that it builds upon two SOTA LLMs for grammatical error checking: XLM-RoBERTa (<a href="https://arxiv.org/pdf/1911.02116.pdf">Conneau et al., 2020</a>) and ELECTRA (<a href="https://arxiv.org/abs/2003.10555">Clark et al., 2020</a>). I am currently working on the fine-tuning of m-DeBERTa-V3 for Grammatical Error detection, using a Swedish dataset provided by <a href="https://github.com/spraakbanken/multiged-2023">Spraakbanken</a><br/>
+                <strong>Current tasks:</strong> testing different loss functions (column-wise MSE and cross-entropy loss) and different padding lengths. Prelimiary result for precision: 0.36. <br/>
+                <strong>Wanna know more? </strong><a href="https://github.com/CelineNausicaa/thesis_code/blob/main/fine_tune_mDeBERTaV3.ipynb">Check it out on Github</a>
             </p>
         </div>
         <div class="col-sm-12 col-md-12">
