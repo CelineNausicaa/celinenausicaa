@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://celinenausicaa.github.io/celinenausicaa/" # the base hostname & protocol for your site
-copyright: 2023 Céline Leuzinger, Inc. All Rights Reserved.
+copyright: 2023 Céline Leuzinger. All Rights Reserved.
 
 # Build settings
 markdown: kramdown
